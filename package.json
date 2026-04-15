@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "tsx src/index.ts",
+    "build": "echo 'No build step required'",
     "dev": "tsx src/index.ts"
   },
   "dependencies": {
