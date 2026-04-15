@@ -112,3 +112,4 @@ export function getWordOfTheDay(): KoreanWord {
     (now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24)
   );
   return koreanWords[daysSinceStart % koreanWords.length];
+}
